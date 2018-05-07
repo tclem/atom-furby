@@ -12,5 +12,12 @@
   "dependencies": {
     "node-fetch": "^2.1.2",
     "npm": "^6.0.0"
+  },
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideLinterUI"
+      }
+    }
   }
 }
