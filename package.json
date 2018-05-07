@@ -1,0 +1,16 @@
+{
+  "name": "atom-furby",
+  "main": "./lib/atom-furby",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/atom-furby",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.0",
+    "request": "^2.85.0"
+  }
+}
