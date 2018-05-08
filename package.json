@@ -2,7 +2,7 @@
   "name": "atom-furby",
   "main": "./lib/atom-furby",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Emits atom events to a furby client",
   "keywords": [],
   "repository": "https://github.com/atom/atom-furby",
   "license": "MIT",
