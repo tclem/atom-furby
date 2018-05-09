@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Emits atom events to a furby client",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-furby",
+  "repository": "https://github.com/tclem/atom-furby",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
