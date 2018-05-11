@@ -1,7 +1,8 @@
 # atom-furby
 
 Watches various atom text editor and workspace events and pushes them to a
-running Furby watcher. Currently emits the following:
+running [Furby menubar application](https://github.com/jeffrafter/furby).
+Currently emits the following events:
 
 * type: 'linter'
 * type: 'active'
@@ -15,11 +16,13 @@ running Furby watcher. Currently emits the following:
 
 # Developing
 
-Get the prereqs:
+If you want linting support (Furby can point out errors) install a linter. We
+recommend Atom IDE.
 
-* In atom, install the plugin: `linter-js-standard`. Install the dependencies
+* In atom, install the plugin: `atom-ide-ui`.
+* Add Atom IDE plugins like `ide-typescript` or `ide-python`
 
-Then clone and install:
+Then clone and install this repo:
 
 ```bash
 git clone https://github.com/tclem/atom-furby
@@ -28,4 +31,4 @@ npm install
 apm ln
 ```
 
-We may also use `linter-eslint` but that requires a `.eslint.rc`.
+You can also use `linter-eslint` (requires a `.eslint.rc`) or (`linter-js-standard`).
